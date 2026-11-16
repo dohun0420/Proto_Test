@@ -12,9 +12,9 @@ AAutoTurret::AAutoTurret()
 	TurretMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TurretMesh"));
 	RootComponent = TurretMesh;
 
-	DamageAmount = 10.0f;
-	FireRate = 0.15f;
-	AttackRange = 10000.f;
+	DamageAmount = 1.0f;
+	FireRate = 1.5f;
+	AttackRange = 10.f;
 	MuzzleSocketName = TEXT("Muzzle");
 
 	LaserThickness = 6.0f;
